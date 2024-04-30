@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Smoothies</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ruby's Smoothies</h1>
+        <nav>
+            <ul>
+                <li><a href="#about us">About us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order now</a></li>
+                <li><a href="#contacts">Contact us</a></li>
+            </ul>
+        </nav>
+        <h2>Welcome</h2>
+    </header>
+    <main>
+        <img class="rounded-full images" src="WhatsApp Image 2024-04-29 at 18.48.41.jpeg" alt="">
+        <hr>
+        <section id="about us">
+             <h2>About Us</h2>
+             <p>We aspire to bring delicious smoothies right to your doorstep. We have a wide range of flavors to suit your taste buds and take you on a sweet adventure.</p>
+        </section>
+        <hr>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <section>
+                <p>Classics</p>
+                <ul>
+                    <li>Batido de mango <br>Mango, passion</li>
+                    <li>Pineapple burst <br>Pineapple, banana, coconut milk</li>
+                    <li>Rockin Veggies<br>Cucumber, spinach, mango</li>
+                </ul>
+            </section>
+            <section>
+                <p>Deluxe</p>
+                <ul>
+                    <li>Coffee mania<br>Coffee, banana, milk, peanuts</li>
+                    <li>Chunky chocolate <br>Cocoa, bananas, milk, peanuts</li>
+                    <li>Cinnamon crush<br>Apple, cinnamon, milk, oats</li>
+                </ul>
+            </section>
+        </section>
+        <hr>
+        <section id="order">
+            <h2>Order here</h2>
+            <ul>
+                <li>250ml = sh,100</li>
+                <li>300ml = sh,150</li>
+                <li>500ml = sh,200</li>
+            </ul>
+            <p><a href="tel:+0712345678">Contact Us</a></p>
+            <p><a href="mailto:musagita@gmail.com">Reach our email</a></p>
+            <h3>Our store offers free delivery in a 2km radius around The Junction.</h3>
+            <h3>We are open from 8am to 5pm.</h3>
+        </section>
+        <section id="contacts">
+            <h3>We want to hear from you</h3>
+            <form action="https://httpbin.org/get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <p>
+                        <label for="firstname">First name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Johnte" required>
+                    </p>
+                    <p>
+                        <label for="lastname">Last name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Kinyua" required>
+                    </p>
+                    <p>
+                        <label for="message">Write your message here</label>
+                        <textarea name="message" id="message" rows="10" cols="30" required></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
